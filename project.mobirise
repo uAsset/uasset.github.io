@@ -316,7 +316,7 @@
             "overlayOpacity": "0.4"
           },
           "title": "With\n<div>uScene\n</div><div>legacy\n</div><div>uGet</div>",
-          "text": "<br><b>Unity 3d with Realistic Image effects</b><br><br>- Sun Shafts - Global Fog - Tonemapping - Antialiasing - Depth\n<br>of Field - Bloom and Flares - Color Correction\n<br>- Screen Space Ambient Occlusion\n<br>- Vignette and Chromatic\n<br>Aberation<br><br><b>Unity 3d with Preset scenes</b><br><br>- Preset cameras with realistic image effects\n<br>- Preset fly camera to play &amp; preview scenes\n<br>- Preset scenes with realistic lightning\n<br>- Preset scenes, sandbox like\n<br>- Preset in AAA &amp; HDR<br><br><b>Unity 3d with Realistic lightning</b><br><br>- Rendering at linear color space\n<br>- High Dynamic Range (HDR)\n<br>- Fabolous scene lightning\n<br>- AAA for every scene<br>",
+          "text": "<br><b>Unity 3d </b>with Realistic Image effects<br><br>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth\n<br>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction\n<br>- Screen Space Ambient Occlusion\n<br>- <b>V</b>ignette and Chromatic\n<br>Aberation<br><br><b>Unity 3d </b>with Preset scenes<br><br>- Preset cameras with realistic image effects\n<br>- Preset fly camera to play &amp; preview scenes\n<br>- Preset scenes with realistic lightning\n<br>- Preset scenes, sandbox like\n<br>- Preset in AAA &amp; HDR<br><br><b>Unity 3d </b>with Realistic lightning<br><br>- Rendering at linear color space\n<br>- High Dynamic Range (HDR)\n<br>- Fabolous scene lightning\n<br>- AAA for every scene<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
           "_tags": [
             "Theme"
@@ -764,7 +764,8 @@
           "_anchor": "header4-l",
           "_styles": {
             "H1": {
-              "font-size": "60px"
+              "font-size": "60px",
+              "color": "#ffffff"
             },
             "B": {
               "font-size": "20px"
