@@ -219,7 +219,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-3-1920x1080.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -232,8 +232,8 @@
             "overlayOpacity": "0.4"
           },
           "title": "Unity Technology &amp;\n<div>uScene legacy</div>",
-          "text": "<br><b>A uAsset creation for Unity Technology\n<br>with focus on productivity\n<br>and visual quality.</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> ",
+          "text": "<br><b>A </b>uAsset creation for Unity Technology\n<br>with focus on productivity\n<br>and visual quality.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://assetstore.unity.com/publishers/35467\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> ",
           "_tags": [
             "Theme"
           ],
@@ -246,6 +246,9 @@
             },
             "P": {
               "font-size": "20px"
+            },
+            "H1": {
+              "font-size": "60px"
             }
           }
         },
@@ -272,7 +275,7 @@
           },
           "title": "Work with\n<div>uScene legacy</div>",
           "text": "<br><b>The</b> fast way to reach triple A graphics in unity 3d.\n<br>Unity game development and uScene legacy.\n<br>Get realistic effects and lightning in HDR.\n<br>Without any knowledge about image\n<br>effects and scene lightning\n<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.\n<br>Simple to install and use, well documented.\n<br>Enjoy preset sandbox scenes in AAA.\n<br>Designed to speed up your work\n<br>in game development,\n<br>without hassle.<br><br><b>Discover</b> the demo and see what you get.\n<br>Download and play uScene,\n<br>without installation.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/E5nHeQD\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
           "_tags": [
             "Theme"
           ],
@@ -300,7 +303,7 @@
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-3-1920x1080.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -492,7 +495,7 @@
           "form": {
             "action": "peruf@tuta.io",
             "alerts": {
-              "success": "uMessage is send....."
+              "success": "uMessage transmit....."
             },
             "fields": {
               "name": {
@@ -738,7 +741,7 @@
             "bgImage": "images/bg.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#27aae0",
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -748,7 +751,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About uAsset",
-          "text": "<br><b>uAsset- Is a self funded independent artistic work.<br>uAsset- Creates user-friendly tools for Unity Technology<br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
+          "text": "<br><b>uAsset- Is a self funded independent artistic work.<br>uAsset- Creates user-friendly tools for <a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
