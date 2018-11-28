@@ -15,14 +15,17 @@
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "robotsText": "User-agent: *\nDisallow:\n\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "uHome",
-        "meta_descr": "",
+        "meta_descr": "With enthusiasm and love for game development- uAsset.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -205,7 +208,7 @@
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
+        "meta_descr": "A uAsset creation for Unity Technology.",
         "title": "uScene legacy",
         "order": 1
       },
@@ -472,7 +475,7 @@
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "Website Generator Description",
+        "meta_descr": "uMessage to uAsset.",
         "title": "uMessage",
         "order": 2
       },
@@ -671,7 +674,7 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "uAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide.",
         "title": "About",
         "order": 3
       },
