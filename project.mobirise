@@ -108,7 +108,7 @@
             "overlayOpacity": "0.4"
           },
           "title": "uAsset\n<div>Just for u</div>",
-          "text": "<br><b>With enthusiasm and love for \n<br>game development-\n<br>uAsset</b>",
+          "text": "<br><b>With enthusiasm and love for \n<br>game development<br></b>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -158,7 +158,7 @@
             }
           },
           "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br>Gumroad<br>PayPal",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://store.unity.com\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
+          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
             "Theme"
@@ -191,7 +191,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "uAsset <br>Game Development <br>© Copyright 2018&nbsp;- All Rights Reserved<br>",
+          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
           "_tags": [
             "Theme"
           ],
@@ -277,8 +277,8 @@
             "overlayOpacity": "0.4"
           },
           "title": "Work with\n<div>uScene legacy</div>",
-          "text": "<br><b>The</b> fast way to reach triple A graphics in unity 3d.\n<br>Unity game development and uScene legacy.\n<br>Get realistic effects and lightning in HDR.\n<br>Without any knowledge about image\n<br>effects and scene lightning\n<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.\n<br>Simple to install and use, well documented.\n<br>Enjoy preset sandbox scenes in AAA.\n<br>Designed to speed up your work\n<br>in game development,\n<br>without hassle.<br><br><b>Discover</b> the demo and see what you get.\n<br>Download and play uScene,\n<br>without installation.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/E5nHeQD\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
+          "text": "<br><b>The</b> fast way to reach triple A graphics in unity 3d.\n<br>With Unity 3D Technology&nbsp;and uScene legacy.\n<br>Get realistic effects and lightning in HDR.\n<br>Without any knowledge about image\n<br>effects and scene lightning\n<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.\n<br>Simple to install and use, well documented.\n<br>Enjoy preset sandbox scenes in AAA.\n<br>Designed to speed up your work\n<br>in game development,\n<br>without hassle.<br><br><b>Discover</b> the demo and see what you get.\n<br>Download and play uScene,\n<br>without installation.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
           "_tags": [
             "Theme"
           ],
@@ -425,7 +425,7 @@
             }
           },
           "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br>Gumroad<br>PayPal",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://store.unity.com\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
+          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
             "Theme"
@@ -458,7 +458,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "uAsset <br>Game Development <br>© Copyright 2018&nbsp;- All Rights Reserved<br>",
+          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
           "_tags": [
             "Theme"
           ],
@@ -624,7 +624,7 @@
             }
           },
           "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br>Gumroad<br>PayPal",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://store.unity.com\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
+          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
             "Theme"
@@ -657,7 +657,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "uAsset <br>Game Development <br>© Copyright 2018&nbsp;- All Rights Reserved<br>",
+          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
           "_tags": [
             "Theme"
           ],
@@ -805,7 +805,7 @@
             }
           },
           "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br>Gumroad<br>PayPal",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://store.unity.com\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
+          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
             "Theme"
@@ -838,7 +838,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "uAsset <br>Game Development <br>© Copyright 2018&nbsp;- All Rights Reserved<br>",
+          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
           "_tags": [
             "Theme"
           ],
