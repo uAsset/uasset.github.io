@@ -18,7 +18,9 @@
     "noImageResize": "",
     "robotsText": "User-agent: *\nDisallow:\n\n",
     "robotsSwitcher": "on",
-    "siteUrl": "undefined"
+    "siteUrl": "https://uasset.github.io/index.html",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -107,7 +109,7 @@
             "overlayColor": "#222",
             "overlayOpacity": "0.4"
           },
-          "title": "uAsset\n<div>Just for u</div>",
+          "title": "uAsset\n<div>Just for u +_-</div>",
           "text": "<br><b>With enthusiasm and love for \n<br>game development<br></b>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
@@ -208,8 +210,8 @@
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "A uAsset creation for Unity Technology with focus on productivity and visual quality.",
-        "title": "uScene legacy - Unity Technology & uScene legacy.",
+        "meta_descr": "Get realistic lightning and effects in HDR. Without any knowledge about image effects and scene lightning in game development.",
+        "title": "uScene legacy - A uAsset creation for Unity Technology",
         "order": 1
       },
       "components": [
