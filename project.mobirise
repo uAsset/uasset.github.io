@@ -24,7 +24,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "uHome",
+        "title": "uHome - Game development with Unity Technology.",
         "meta_descr": "With enthusiasm and love for game development- uAsset.",
         "header_custom": "",
         "footer_custom": "",
@@ -208,8 +208,8 @@
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "A uAsset creation for Unity Technology.",
-        "title": "uScene legacy",
+        "meta_descr": "A uAsset creation for Unity Technology with focus on productivity and visual quality.",
+        "title": "uScene legacy - Unity Technology & uScene legacy.",
         "order": 1
       },
       "components": [
@@ -476,7 +476,7 @@
     "page2.html": {
       "settings": {
         "meta_descr": "uMessage to uAsset.",
-        "title": "uMessage",
+        "title": "uMessage - uMessage to uAsset.",
         "order": 2
       },
       "components": [
@@ -675,7 +675,7 @@
     "page3.html": {
       "settings": {
         "meta_descr": "uAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide.",
-        "title": "About",
+        "title": "About - uAsset- Is a self funded independent artistic work.",
         "order": 3
       },
       "components": [
@@ -757,7 +757,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About uAsset",
-          "text": "<br><b>uAsset- Is a self funded independent artistic work.<br>uAsset- Creates user-friendly tools for <a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
+          "text": "<br><b>uAsset- Is a self funded independent artistic work.<br>uAsset- Creates user-friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
