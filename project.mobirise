@@ -27,7 +27,7 @@
       "settings": {
         "main": true,
         "title": "uHome - Game development with Unity Technology.",
-        "meta_descr": "With enthusiasm and love for game development- uAsset.",
+        "meta_descr": "With enthusiasm and love for game development.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -210,7 +210,7 @@
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "Get realistic lightning and effects in HDR. Without any knowledge about image effects and scene lightning in game development.",
+        "meta_descr": "The fast way to reach triple A graphics in unity 3d. With Unity 3D Technology and uScene legacy. Get realistic effects and lightning in HDR.",
         "title": "uScene legacy - A uAsset creation for Unity Technology",
         "order": 1
       },
@@ -278,8 +278,8 @@
             "overlayColor": "#222",
             "overlayOpacity": "0.4"
           },
-          "title": "Work with\n<div>uScene legacy</div>",
-          "text": "<br><b>The</b> fast way to reach triple A graphics in unity 3d.<br>With Unity 3D Technology&nbsp;and uScene legacy.<br>Get realistic effects and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>Compatible</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity<b> 5.5</b> and above,<br><b>Unity 2017.x</b>&nbsp;and <b>2018.x</b><br><br><b>Discover</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
+          "title": "World Building with\n<div>uScene legacy</div>",
+          "text": "<br><b>Save</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get realistic worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>Compatible</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity<b> 5.5</b> and above,<br><b>Unity 2017.x</b>&nbsp;and <b>2018.x</b><br><br><b>Discover</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download</a> ",
           "_tags": [
             "Theme"
@@ -676,7 +676,7 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "uAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide.",
+        "meta_descr": "uAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide. Experience in game development since Unity 4.6",
         "title": "About - uAsset- Is a self funded independent artistic work.",
         "order": 3
       },
