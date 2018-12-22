@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "uAsset-github.io",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -26,8 +26,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "uHome - Game development with Unity Technology.",
-        "meta_descr": "With enthusiasm and love for game development.",
+        "title": "uHome - Game development with uAsset and unity technology.",
+        "meta_descr": "uAsset Just for u +_- With enthusiasm and love for game development.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -110,7 +110,7 @@
             "overlayOpacity": "0.4"
           },
           "title": "uAsset\n<div>Just for u +_-</div>",
-          "text": "<br><b>With enthusiasm and love for \n<br>game development<br></b>",
+          "text": "<br>With enthusiasm and love for \n<br>game development<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -159,7 +159,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/l/uSceneLegacy\" class=\"text-info\">Gumroad</a><br>",
+          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
           "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
@@ -211,7 +211,7 @@
     "page1.html": {
       "settings": {
         "meta_descr": "The fast way to reach triple A graphics in unity 3d. With Unity 3D Technology and uScene legacy. Get realistic effects and lightning in HDR.",
-        "title": "uScene legacy - A uAsset creation for Unity Technology",
+        "title": "uScene legacy - A uAsset creation for unity technology",
         "order": 1
       },
       "components": [
@@ -237,8 +237,8 @@
             "overlayOpacity": "0.4"
           },
           "title": "Unity Technology &amp;\n<div>uScene legacy</div>",
-          "text": "<br><b>A </b>uAsset creation for Unity Technology<br>with focus on productivity<br>and visual quality.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/l/uSceneLegacy\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
+          "text": "<br>A uAsset creation for Unity Technology<br>with focus on productivity<br>and visual quality.",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://assetstore.unity.com/publishers/35467\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
           "_tags": [
             "Theme"
           ],
@@ -279,7 +279,7 @@
             "overlayOpacity": "0.4"
           },
           "title": "World Building with\n<div>uScene legacy</div>",
-          "text": "<br><b>Save</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get realistic worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>Artist</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>Compatible</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity<b> 5.5</b> and above,<br><b>Unity 2017.x</b>&nbsp;and <b>2018.x</b><br><br><b>Discover</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
+          "text": "<br><b>SAVE</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get realistic worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>ARTIST</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>COMPATIBLE</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity 5.5 - Unity 5.6 -&nbsp;<br>Unity 2017.x&nbsp;and 2018.x<br><br><b>DISCOVER</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download Demo</a> ",
           "_tags": [
             "Theme"
@@ -322,7 +322,7 @@
           },
           "title": "With\n<div>uScene&nbsp;<span style=\"color: inherit; font-family: inherit;\">legacy</span></div><div>uGet</div>",
           "text": "<br><b>Unity 3d </b>with preset Image effects<br><br>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth<br>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction<br>- <b>S</b>creen Space Ambient Occlusion<br>- <b>V</b>ignette and Chromatic<br>Aberation<br><br><b>Unity 3d </b>with preset scenes<br><br>- Preset cameras with realistic image effects<br>- Preset fly camera to play &amp; preview scenes<br>- Preset scenes with realistic lightning<br>- Preset scenes, sandbox like<br>- Preset in AAA &amp; HDR<br><br><b>Unity 3d </b>with preset lightning<br><br>- Rendering at linear color space<br>- High Dynamic Range (HDR)<br>- Realistic scene lightning<br>- AAA for every scene<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/l/uSceneLegacy\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/l/uSceneLegacy\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
           "_tags": [
             "Theme"
           ],
@@ -426,7 +426,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/l/uSceneLegacy\" class=\"text-info\">Gumroad</a><br>",
+          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
           "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
@@ -497,15 +497,15 @@
             "overlayOpacity": 0.5
           },
           "title": "uMessage to\n<div>uAsset</div><br><div>\n</div>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">uMessage</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>uMessage</a>",
           "form": {
-            "action": "peruf@tuta.io",
+            "action": "umessage@tuta.io",
             "alerts": {
-              "success": "uMessage transmit....."
+              "success": "uMessage to uAsset send..."
             },
             "fields": {
               "name": {
-                "visible": false,
+                "visible": true,
                 "title": "Name",
                 "customTitle": "Name*"
               },
@@ -515,13 +515,13 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": false,
+                "visible": true,
                 "title": "Phone",
                 "customTitle": "Phone"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "uMessage to uAsset"
               }
             }
           },
@@ -625,7 +625,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/l/uSceneLegacy\" class=\"text-info\">Gumroad</a><br>",
+          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
           "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
@@ -676,8 +676,8 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "uAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide. Experience in game development since Unity 4.6",
-        "title": "About - uAsset- Is a self funded independent artistic work.",
+        "meta_descr": "About uAsset\n\nuAsset- Is a self funded independent artistic work.\n\nuAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide. Experience\nin game development since Unity 4.6\nWith focus on productivity\nand visual quality.\nuAsset- Just\nfor u\n+_-",
+        "title": "About - uAsset Is a self funded independent artistic work.",
         "order": 3
       },
       "components": [
@@ -759,7 +759,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About uAsset",
-          "text": "<br><b>uAsset- Is a self funded independent artistic work.<br>uAsset- Creates user-friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
+          "text": "<br><b>uAsset- Is a self funded independent artistic work.</b><br><b><br>uAsset- Creates user-friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -806,7 +806,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/l/uSceneLegacy\" class=\"text-info\">Gumroad</a><br>",
+          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
           "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
           "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
           "_tags": [
