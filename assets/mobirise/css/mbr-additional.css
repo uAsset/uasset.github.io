@@ -19,6 +19,9 @@
 #header4-1 B {
   font-size: 20px;
 }
+#header4-1 P {
+  font-size: 20px;
+}
 #contacts1-5 P {
   text-align: left;
   color: #000000;
@@ -33,33 +36,6 @@
   color: #000000;
   text-align: left;
 }
-#header4-a DIV {
-  font-size: 60px;
-}
-#header4-a P {
-  font-size: 20px;
-}
-#header4-a H1 {
-  font-size: 60px;
-}
-#header4-b DIV {
-  font-size: 60px;
-}
-#header4-b P {
-  font-size: 20px;
-}
-#header4-b H1 {
-  font-size: 60px;
-}
-#header4-c DIV {
-  font-size: 60px;
-}
-#header4-c P {
-  font-size: 20px;
-}
-#header4-c H1 {
-  font-size: 60px;
-}
 #ext_menu-7 .mbr-brand__name {
   font-size: 16px;
 }
@@ -71,6 +47,33 @@
 }
 #ext_menu-7 .mbr-navbar__hamburger {
   color: #ffffff;
+}
+#header4-f DIV {
+  font-size: 72px;
+}
+#header4-f P {
+  font-size: 18px;
+}
+#header4-f H1 {
+  font-size: 60px;
+}
+#header4-g DIV {
+  font-size: 60px;
+}
+#header4-g P {
+  font-size: 18px;
+}
+#header4-g H1 {
+  font-size: 60px;
+}
+#header4-h DIV {
+  font-size: 60px;
+}
+#header4-h P {
+  font-size: 18px;
+}
+#header4-h H1 {
+  font-size: 60px;
 }
 #contacts1-8 P {
   text-align: left;

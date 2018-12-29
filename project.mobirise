@@ -11,14 +11,14 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 7,
-    "versionPublish": "4.8.6",
+    "uniqCompNum": 18,
+    "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
-    "robotsText": "User-agent: *\nDisallow:\n\n",
+    "robotsText": "User-agent: *\nDisallow:\n\n\n",
     "robotsSwitcher": "on",
-    "siteUrl": "https://uasset.github.io/index.html",
+    "siteUrl": "https://uasset.github.io",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on"
   },
@@ -26,8 +26,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "uHome - Game development with uAsset and unity technology.",
-        "meta_descr": "uAsset Just for u +_- With enthusiasm and love for game development.",
+        "title": "uHome - Game development with uAsset and unity 3d technology.",
+        "meta_descr": "uAsset Just for u +_- With enthusiasm and love for game development and video games.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -70,9 +70,10 @@
               "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "link": "https://uasset.github.io",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -127,6 +128,9 @@
             },
             "B": {
               "font-size": "20px"
+            },
+            "P": {
+              "font-size": "20px"
             }
           }
         },
@@ -149,9 +153,10 @@
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+              "link": "https://uasset.github.io",
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -210,137 +215,11 @@
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "The fast way to reach triple A graphics in unity 3d. With Unity 3D Technology and uScene legacy. Get realistic effects and lightning in HDR.",
-        "title": "uScene legacy - A uAsset creation for unity technology",
+        "meta_descr": "The fast way to reach triple A graphics in unity 3d. Get realistic image effects and lightning in HDR.",
+        "title": "uScene legacy - A uAsset creation for unity 3d technology.",
         "order": 1
       },
       "components": [
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "Unity Technology &amp;\n<div>uScene legacy</div>",
-          "text": "<br>A uAsset creation for Unity Technology<br>with focus on productivity<br>and visual quality.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://assetstore.unity.com/publishers/35467\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-a",
-          "_styles": {
-            "DIV": {
-              "font-size": "60px"
-            },
-            "P": {
-              "font-size": "20px"
-            },
-            "H1": {
-              "font-size": "60px"
-            }
-          }
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-1-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "World Building with\n<div>uScene legacy</div>",
-          "text": "<br><b>SAVE</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get realistic worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>ARTIST</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>COMPATIBLE</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity 5.5 - Unity 5.6 -&nbsp;<br>Unity 2017.x&nbsp;and 2018.x<br><br><b>DISCOVER</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download Demo</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_styles": {
-            "DIV": {
-              "font-size": "60px"
-            },
-            "P": {
-              "font-size": "20px"
-            },
-            "H1": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header4-b"
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "With\n<div>uScene&nbsp;<span style=\"color: inherit; font-family: inherit;\">legacy</span></div><div>uGet</div>",
-          "text": "<br><b>Unity 3d </b>with preset Image effects<br><br>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth<br>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction<br>- <b>S</b>creen Space Ambient Occlusion<br>- <b>V</b>ignette and Chromatic<br>Aberation<br><br><b>Unity 3d </b>with preset scenes<br><br>- Preset cameras with realistic image effects<br>- Preset fly camera to play &amp; preview scenes<br>- Preset scenes with realistic lightning<br>- Preset scenes, sandbox like<br>- Preset in AAA &amp; HDR<br><br><b>Unity 3d </b>with preset lightning<br><br>- Rendering at linear color space<br>- High Dynamic Range (HDR)<br>- Realistic scene lightning<br>- AAA for every scene<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/l/uSceneLegacy\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Asset Store</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_styles": {
-            "DIV": {
-              "font-size": "60px"
-            },
-            "P": {
-              "font-size": "20px"
-            },
-            "H1": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header4-c"
-        },
         {
           "_inherit": "menu",
           "_params": {
@@ -378,8 +257,8 @@
               "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "link": "https://uasset.github.io",
               "title": ""
             },
             "iconFont": {
@@ -389,13 +268,138 @@
               "family": "MobiriseIcons",
               "link": "index.html",
               "size": "",
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">uasset.ga</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-7"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "<div>uScene legacy</div>",
+          "text": "<br>A uAsset creation for Unity Technology<br>with focus on productivity<br>and visual quality.",
+          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "DIV": {
+              "font-size": "72px"
+            },
+            "P": {
+              "font-size": "18px"
+            },
+            "H1": {
+              "font-size": "60px"
+            }
+          },
+          "_anchor": "header4-f"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-1-1920x1080.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "Create your <br>World",
+          "text": "<br><b>SAVE</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get sandbox worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>ARTIST</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>COMPATIBLE</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity 5.5 - Unity 5.6 -&nbsp;<br>Unity 2017.x&nbsp;and 2018.x<br><br><b>DISCOVER</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download Demo</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "DIV": {
+              "font-size": "60px"
+            },
+            "P": {
+              "font-size": "18px"
+            },
+            "H1": {
+              "font-size": "60px"
+            }
+          },
+          "_anchor": "header4-g"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "<div>uScene&nbsp;<span style=\"color: inherit; font-family: inherit;\">legacy</span></div><div><span style=\"color: inherit; font-family: inherit;\">&amp; Unity 3d</span></div>",
+          "text": "<br><b>Unity 3d </b>with preset Image effects<br><br>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth<br>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction<br>- <b>S</b>creen Space Ambient Occlusion<br>- <b>V</b>ignette and Chromatic<br>Aberation<br><br><b>Unity 3d </b>with preset scenes<br><br>- Preset cameras with preset image effects<br>- Preset fly camera, play &amp; preview scenes<br>- Preset scenes with fabulous lightning<br>- Preset scenes, sandbox like<br>- Preset in AAA &amp; <b>HDR</b><br><br><b>Unity 3d </b>with preset lightning<br><br>- Rendering at linear color space<br>- High Dynamic Range (<b>HDR</b>)<br>- Fabulous scene lightning<br>- AAA for your game<br>",
+          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "DIV": {
+              "font-size": "60px"
+            },
+            "P": {
+              "font-size": "18px"
+            },
+            "H1": {
+              "font-size": "60px"
+            }
+          },
+          "_anchor": "header4-h"
         },
         {
           "_params": {
@@ -416,8 +420,8 @@
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
-              "link": "",
-              "alt": "",
+              "link": "https://uasset.github.io",
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
               "title": ""
             },
             "iconFont": {
@@ -577,9 +581,10 @@
               "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "link": "https://uasset.github.io",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -615,9 +620,10 @@
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+              "link": "https://uasset.github.io",
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -718,9 +724,10 @@
               "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "link": "https://uasset.github.io",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -759,7 +766,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About uAsset",
-          "text": "<br><b>uAsset- Is a self funded independent artistic work.</b><br><b><br>uAsset- Creates user-friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
+          "text": "<br><b>uAsset- Is a self funded independent artistic work.</b><br><b><br>uAsset- Creates user friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -796,9 +803,10 @@
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+              "link": "https://uasset.github.io",
+              "alt": "uAsset - With enthusiasm and love for  game developmen",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
