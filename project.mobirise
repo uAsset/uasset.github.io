@@ -14,19 +14,19 @@
     "uniqCompNum": 18,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": "",
+    "favicon": "@PROJECT_PATH@/assets/images/uasset-logo-2-128x128.png",
+    "noImageResize": "true",
     "robotsText": "User-agent: *\nDisallow:\n\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://uasset.github.io",
-    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcherAuto": "",
     "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "uHome - Game development with uAsset and unity 3d technology.",
+        "title": "uAsset - Game development with uAsset and unity 3d technology.",
         "meta_descr": "uAsset Just for u +_- With enthusiasm and love for game development and video games.",
         "header_custom": "",
         "footer_custom": "",
@@ -63,7 +63,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uHome</a></li>   ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
           "logo": {
             "image": {
               "active": true,
@@ -72,8 +72,7 @@
               "height": 128,
               "alt": "uAsset - With enthusiasm and love for  game developmen",
               "link": "https://uasset.github.io",
-              "title": "",
-              "linkInNewWindow": false
+              "title": "uAsset - With enthusiasm and love for  game developmen"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -155,8 +154,7 @@
               "active": true,
               "link": "https://uasset.github.io",
               "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "",
-              "linkInNewWindow": false
+              "title": "uAsset - With enthusiasm and love for  game developmen"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -250,7 +248,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uHome</a></li>   ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
           "logo": {
             "image": {
               "active": true,
@@ -259,7 +257,7 @@
               "height": 128,
               "alt": "uAsset - With enthusiasm and love for  game developmen",
               "link": "https://uasset.github.io",
-              "title": ""
+              "title": "uAsset - With enthusiasm and love for  game developmen"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -422,7 +420,7 @@
               "active": true,
               "link": "https://uasset.github.io",
               "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": ""
+              "title": "uAsset - With enthusiasm and love for  game developmen"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -574,7 +572,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uHome</a></li>   ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
           "logo": {
             "image": {
               "active": true,
@@ -583,7 +581,7 @@
               "height": 128,
               "alt": "uAsset - With enthusiasm and love for  game developmen",
               "link": "https://uasset.github.io",
-              "title": "",
+              "title": "uAsset - With enthusiasm and love for  game developmen",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -622,7 +620,7 @@
               "active": true,
               "link": "https://uasset.github.io",
               "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "",
+              "title": "uAsset - With enthusiasm and love for  game developmen",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -717,7 +715,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uHome</a></li>   ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
           "logo": {
             "image": {
               "active": true,
@@ -726,7 +724,7 @@
               "height": 128,
               "alt": "uAsset - With enthusiasm and love for  game developmen",
               "link": "https://uasset.github.io",
-              "title": "",
+              "title": "uAsset - With enthusiasm and love for  game developmen",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -805,7 +803,7 @@
               "active": true,
               "link": "https://uasset.github.io",
               "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "",
+              "title": "uAsset - With enthusiasm and love for  game developmen",
               "linkInNewWindow": false
             },
             "iconFont": {
