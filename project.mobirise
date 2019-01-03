@@ -1,863 +1,1276 @@
 {
   "settings": {
-    "name": "uAsset-github.io",
+    "name": "uAsset.github.io - Google AMP",
     "currentPage": "index.html",
     "theme": {
-      "name": "default",
-      "title": "Mobirise",
-      "styling": {},
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": "3.8",
+        "display2Font": "Roboto",
+        "display2Size": "1.2",
+        "display5Font": "Roboto",
+        "display5Size": "1",
+        "display7Font": "Roboto",
+        "display7Size": "0.8",
+        "display4Font": "Roboto",
+        "display4Size": "1",
+        "isRoundedButtons": false,
+        "isScrollToTopButton": true,
+        "arrowColor": "#ffffff"
+      },
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.8.6",
+    "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 18,
-    "versionPublish": "4.8.10",
-    "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/uasset-logo-2-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/uasset-logo-1-128x128-1.png",
     "noImageResize": "true",
-    "robotsText": "User-agent: *\nDisallow:\n\n\n",
-    "robotsSwitcher": "on",
-    "siteUrl": "https://uasset.github.io",
-    "sitemapSwitcherAuto": "",
-    "sitemapSwitcher": "on"
+    "siteUrl": "undefined",
+    "uniqCompNum": 48,
+    "versionPublish": "4.8.10",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "uAsset - Game development with uAsset and unity 3d technology.",
-        "meta_descr": "uAsset Just for u +_- With enthusiasm and love for game development and video games.",
+        "title": "uAsset",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": true,
-            "sticky": false,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#ffffff",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-shopping-cart mbr-iconfont mbr-iconfont-btn-parent\"></span>uScene legacy</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn-parent\"></span>uMessage</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-italic mbr-iconfont mbr-iconfont-btn-parent\"></span>About</a></li>         ",
-          "_tags": [
-            "Theme"
-          ],
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
             },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
+            ".open": {
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
             },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "link": "https://uasset.github.io",
-              "title": "uAsset - With enthusiasm and love for  game developmen"
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": "",
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">uasset.ga</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-4"
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-2-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
             },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "uAsset\n<div>Just for u +_-</div>",
-          "text": "<br>With enthusiasm and love for \n<br>game development<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-1",
-          "_styles": {
-            "DIV": {
-              "font-size": "60px"
+            "button.sticky-but": {
+              "position": "fixed"
             },
-            "H1": {
-              "font-size": "60px"
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "padding-right": "30px",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              }
             },
-            "B": {
-              "font-size": "20px"
-            },
-            "P": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-2-265x265.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "https://uasset.github.io",
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "uAsset - With enthusiasm and love for  game developmen"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            "UL": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "contacts1-5"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
+            ".brand-name": {
               "color": "#000000",
               "text-align": "left"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "14px",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              }
             }
           },
-          "_anchor": "footer1-6"
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Logo Anzeigen\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Lögo-Höhe\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n        <input type=\"range\" title=\"Logo-Breite\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Markennamen Anzeigen\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Links Anzeigen\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar-Seite\" name=\"sidebarSide\">\n            <option value=\"left\">Links</option>\n            <option value=\"right\" selected=\"\">Rechts</option>\n        </select>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger-Farbe\" name=\"hamburgerColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" layout=\"responsive\" width=\"80\" height=\"80\" alt=\"uAsset - Just for u +_-\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" alt=\"uAsset - Just for u +_-\" title=\"With enthusiasm and love for  game development\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\"><b>Just for u +_-</b></a></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">uAsset</a>\n              <a class=\"text-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Buy uAssets</a>\n              <a class=\"text-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\">uMessage</a> <a class=\"text-primary\" href=\"page3.html\" data-app-placeholder=\"Type Text\">About uAsset<br></a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>Buy uAssets<br></a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "rdN48yqkXW",
+          "_anchor": "menu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "text-align": "center"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-1-1920x1080.png\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            uAsset\n        <div>Just for u +_-</div></h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><div><b>Game assets for <a href=\"https://unity3d.com\"><b>u</b></a></b><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\"><a href=\"https://unity3d.com\"><b>nity3d</b></a> and</b></div><div><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">his&nbsp;</b><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">game developer</b></div><div><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">worldwide</b></div><div><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">*-*</b></div><div><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\"><br></b></div></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>\n                Buy uAssets</a></div>\n    </div>\n</section>",
+          "_cid": "rdN803bfKN",
+          "_anchor": "header4-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".items-col .item": {
+              "margin": "0"
+            },
+            ".item, .group-title": {
+              "color": "#efefef",
+              "padding-top": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".items-col": {
+                "text-align": "center",
+                "margin": "2rem 0"
+              }
+            },
+            ".group-title": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".item, .items": {
+              "color": "#4ea2e3",
+              "text-align": "left"
+            },
+            ".item, .items A": {
+              "color": "#4ea2e3"
+            },
+            ".item, .items B": {
+              "color": "#000000"
+            }
+          },
+          "_name": "footer3",
+          "_customHTML": "<section class=\"footer3\" group=\"Footers\" plugins=\"amp-main\" global=\"\" once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <select title=\"Spalten\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Spaltentitel Anzeigen\" name=\"showTitle\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 1\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 2\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 3\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 2\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-3\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" layout=\"responsive\" width=\"255\" height=\"255\" alt=\"uAsset - Just for you +_-\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" alt=\"uAsset - Just for you +_-\" title=\"With enthusiasm and love for  game development\">\n                </amp-img>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    uAsset</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"index.html\">uAssets</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page1.html\">\n                        Buy uAssets</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page2.html\">\n                        uMessage</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page3.html\">\n                        About&nbsp;uAsset</a><br><br></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://assetstore.unity.com/publishers/35467\"></a><b>Buy uAsset</b><b><br></b><b><br><a href=\"https://assetstore.unity.com/publishers/35467\">Asset Store</a></b></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://gumroad.com/uasset\">\n                        Gumroad</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Partner</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com\">\n                        Unity Technology</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/community\">\n                        Unity Community</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/get-unity/download/archive\">\n                        Unity Download</a></p>\n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/unity/beta\">\n                        Unity Beta</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Links</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://80.lv\">80.lv</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://github.com\">\n                        Github</a></p></div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "rdN5Xq7qhS",
+          "_anchor": "footer3-2",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
         }
       ]
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "The fast way to reach triple A graphics in unity 3d. Get realistic image effects and lightning in HDR.",
-        "title": "uScene legacy - A uAsset creation for unity 3d technology.",
+        "title": "Buy uAssets",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
         "order": 1
       },
       "components": [
         {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": true,
-            "sticky": false,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#ffffff",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-shopping-cart mbr-iconfont mbr-iconfont-btn-parent\"></span>uScene legacy</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn-parent\"></span>uMessage</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-italic mbr-iconfont mbr-iconfont-btn-parent\"></span>About</a></li>         ",
-          "_tags": [
-            "Theme"
-          ],
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
             },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
+            ".open": {
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
             },
-            ".mbr-navbar__hamburger": {
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "padding-right": "30px",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".brand-name": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "14px",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Logo Anzeigen\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Lögo-Höhe\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n        <input type=\"range\" title=\"Logo-Breite\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Markennamen Anzeigen\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Links Anzeigen\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar-Seite\" name=\"sidebarSide\">\n            <option value=\"left\">Links</option>\n            <option value=\"right\" selected=\"\">Rechts</option>\n        </select>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger-Farbe\" name=\"hamburgerColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" layout=\"responsive\" width=\"80\" height=\"80\" alt=\"uAsset - Just for u +_-\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" alt=\"uAsset - Just for u +_-\" title=\"With enthusiasm and love for  game development\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\"><b>Just for u +_-</b></a></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">uAsset</a>\n              <a class=\"text-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Buy uAssets</a>\n              <a class=\"text-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\">uMessage</a> <a class=\"text-primary\" href=\"page3.html\" data-app-placeholder=\"Type Text\">About uAsset<br></a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>Buy uAssets<br></a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "re0BX1QR7F",
+          "_anchor": "menu1-y",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3.png\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            uScene legacy</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>A</b> uAsset creation for Unity Technology\n<div>with focus on productivity\n</div><div>and visual quality.</div><div><br></div></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://gumroad.com/uasset\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-arrow-down mbr-iconfont mbr-iconfont-btn\"></span>\n                Gumroad</a></div>\n    </div>\n</section>",
+          "_cid": "re0BX2RL8r",
+          "_anchor": "header4-10",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-title DIV": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn DIV": {
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "link": "https://uasset.github.io",
-              "title": "uAsset - With enthusiasm and love for  game developmen"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": "",
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">uasset.ga</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-7"
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "<div>uScene legacy</div>",
-          "text": "<br>A uAsset creation for Unity Technology<br>with focus on productivity<br>and visual quality.",
-          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
-          "_styles": {
-            "DIV": {
-              "font-size": "72px"
-            },
-            "P": {
-              "font-size": "18px"
-            },
-            "H1": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header4-f"
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-2.png\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Create your<div>World</div></h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><div><b>SAVE</b> time, and build impressive worlds, with uScene legacy.\n</div><div>The fast way to reach triple A graphics in unity 3d.\n</div><div>Get sandbox worlds and lightning in HDR.\n</div><div>Without any knowledge about image\n</div><div>effects and scene lightning\n</div><div>in game development.</div><br><div>\n</div><div>\n</div><div><b>ARTIST</b>, coder or beginner, professionals - it doesn't matter.\n</div><div>Simple to install and use, well documented.\n</div><div>Enjoy preset sandbox scenes in AAA.\n</div><div>Designed to speed up your work.\n</div><div>Start game development\n</div><div>without hassle <b>+_-</b></div><br><div><b><br></b></div><div>\n</div><div><b>COMPATIBLE</b> with a wide range of Unity version.&nbsp;\n</div><div>Works with Unity 5.5 - Unity 5.6 -&nbsp;\n</div><div>Unity 2017.x and 2018.x</div><br><div>\n</div><div>\n</div><div><b>DISCOVER</b> the demo and see, what you get.\n</div><div>Download and play uScene,\n</div><div>without installation.<br><div><br></div></div></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://workupload.com/file/JyJwVzpN\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-gamepad mbr-iconfont mbr-iconfont-btn\"></span>Download</a></div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "re0BX3aQT4",
+          "_anchor": "header4-11",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-game-development-1-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
           },
-          "title": "Create your <br>World",
-          "text": "<br><b>SAVE</b> time, and build impressive worlds, with uScene legacy.<br>The fast way to reach triple A graphics in unity 3d.<br>Get sandbox worlds and lightning in HDR.<br>Without any knowledge about image<br>effects and scene lightning<br>in game development.<br><br><b>ARTIST</b>, coder or beginner, profesional it doesent matter.<br>Simple to install and use, well documented.<br>Enjoy preset sandbox scenes in AAA.<br>Designed to speed up your work<br>in game development,<br>without hassle.<br><br><b>COMPATIBLE</b> with a wide range of Unity version.\n<br>Works with&nbsp;Unity 5.5 - Unity 5.6 -&nbsp;<br>Unity 2017.x&nbsp;and 2018.x<br><br><b>DISCOVER</b> the demo and see what you get.<br>Download and play uScene,<br>without installation.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://workupload.com/file/JyJwVzpN\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>Download Demo</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
-          "_styles": {
-            "DIV": {
-              "font-size": "60px"
-            },
-            "P": {
-              "font-size": "18px"
-            },
-            "H1": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header4-g"
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3.png\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">uScene legacy\n<div>&amp; Unity 3d</div></h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Unity 3d</b> with preset Image effects<br><br>\n<div>\n</div><div>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth\n</div><div>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction\n</div><div>- <b>S</b>creen Space Ambient Occlusion\n</div><div>- <b>V</b>ignette and Chromatic\n</div><div>Aberation</div><br><div>\n</div><div>\n</div><div><b>Unity 3d</b> with preset scenes</div><br><div>\n</div><div>\n</div><div>- Preset cameras with preset image effects\n</div><div>- Preset fly camera, play &amp; preview scenes\n</div><div>- Preset scenes with fabulous lightning\n</div><div>- Preset scenes, sandbox like\n</div><div>- Preset in <b>AAA</b> &amp; <b>HDR</b></div><br><div><b><br></b>\n</div><div>\n</div><div><b>Unity 3d</b> with preset lightning</div><br><div>\n</div><div>\n</div><div>- Rendering at linear color space\n</div><div>- High Dynamic Range (<b>HDR</b>)\n</div><div>- Fabulous scene lightning\n</div><div>- <b>AAA</b> for your game <b>+_-</b></div><div><div><br></div></div></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://gumroad.com/uasset\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>\n                Gumroad</a></div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "re0BX3EIqy",
+          "_anchor": "header4-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3-1920x1080.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.4"
-          },
-          "title": "<div>uScene&nbsp;<span style=\"color: inherit; font-family: inherit;\">legacy</span></div><div><span style=\"color: inherit; font-family: inherit;\">&amp; Unity 3d</span></div>",
-          "text": "<br><b>Unity 3d </b>with preset Image effects<br><br>- <b>S</b>un Shafts - <b>G</b>lobal Fog - <b>T</b>onemapping - <b>A</b>ntialiasing - <b>D</b>epth<br>of Field - <b>B</b>loom and Flares - <b>C</b>olor Correction<br>- <b>S</b>creen Space Ambient Occlusion<br>- <b>V</b>ignette and Chromatic<br>Aberation<br><br><b>Unity 3d </b>with preset scenes<br><br>- Preset cameras with preset image effects<br>- Preset fly camera, play &amp; preview scenes<br>- Preset scenes with fabulous lightning<br>- Preset scenes, sandbox like<br>- Preset in AAA &amp; <b>HDR</b><br><br><b>Unity 3d </b>with preset lightning<br><br>- Rendering at linear color space<br>- High Dynamic Range (<b>HDR</b>)<br>- Fabulous scene lightning<br>- AAA for your game<br>",
-          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://gumroad.com/uasset\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>Gumroad</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
           "_styles": {
-            "DIV": {
-              "font-size": "60px"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            "P": {
-              "font-size": "18px"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            "H1": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header4-h"
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-2-265x265.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "https://uasset.github.io",
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "uAsset - With enthusiasm and love for  game developmen"
+            "amp-img": {
+              "text-align": "center"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#000000"
+            ".items-col .item": {
+              "margin": "0"
             },
-            "UL": {
-              "color": "#000000"
+            ".item, .group-title": {
+              "color": "#efefef",
+              "padding-top": "0"
             },
-            "STRONG": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "contacts1-8"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
+            "@media (max-width: 767px)": {
+              ".items-col": {
+                "text-align": "center",
+                "margin": "2rem 0"
+              }
+            },
+            ".group-title": {
               "color": "#000000",
               "text-align": "left"
+            },
+            ".item, .items": {
+              "color": "#4ea2e3",
+              "text-align": "left"
+            },
+            ".item, .items A": {
+              "color": "#4ea2e3"
+            },
+            ".item, .items B": {
+              "color": "#000000"
             }
           },
-          "_anchor": "footer1-9"
+          "_name": "footer3",
+          "_customHTML": "<section class=\"footer3\" group=\"Footers\" plugins=\"amp-main\" global=\"\" once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <select title=\"Spalten\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Spaltentitel Anzeigen\" name=\"showTitle\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 1\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 2\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 3\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 2\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-3\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" layout=\"responsive\" width=\"255\" height=\"255\" alt=\"uAsset - Just for you +_-\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" alt=\"uAsset - Just for you +_-\" title=\"With enthusiasm and love for  game development\">\n                </amp-img>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    uAsset</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"index.html\">uAssets</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page1.html\">\n                        Buy uAssets</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page2.html\">\n                        uMessage</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page3.html\">\n                        About&nbsp;uAsset</a><br><br></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://assetstore.unity.com/publishers/35467\"></a><b>Buy uAsset</b><b><br></b><b><br><a href=\"https://assetstore.unity.com/publishers/35467\">Asset Store</a></b></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://gumroad.com/uasset\">\n                        Gumroad</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Partner</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com\">\n                        Unity Technology</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/community\">\n                        Unity Community</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/get-unity/download/archive\">\n                        Unity Download</a></p>\n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/unity/beta\">\n                        Unity Beta</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Links</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://80.lv\">80.lv</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://github.com\">\n                        Github</a></p></div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "re0BX42TEQ",
+          "_anchor": "footer3-13",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
         }
       ]
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "uMessage to uAsset.",
-        "title": "uMessage - uMessage to uAsset.",
+        "title": "uMessage",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
         "order": 2
       },
       "components": [
         {
-          "_params": {
-            "showTitle": true,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "uMessage to\n<div>uAsset</div><br><div>\n</div>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>uMessage</a>",
-          "form": {
-            "action": "umessage@tuta.io",
-            "alerts": {
-              "success": "uMessage to uAsset send..."
+          "_styles": {
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
             },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
+            },
+            ".open": {
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "padding-right": "30px",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".brand-name": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
               },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "14px",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
               },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
               },
-              "message": {
-                "title": "Message",
-                "customTitle": "uMessage to uAsset"
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
               }
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-h",
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Logo Anzeigen\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Lögo-Höhe\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n        <input type=\"range\" title=\"Logo-Breite\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Markennamen Anzeigen\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Links Anzeigen\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar-Seite\" name=\"sidebarSide\">\n            <option value=\"left\">Links</option>\n            <option value=\"right\" selected=\"\">Rechts</option>\n        </select>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger-Farbe\" name=\"hamburgerColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" layout=\"responsive\" width=\"80\" height=\"80\" alt=\"uAsset - Just for u +_-\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" alt=\"uAsset - Just for u +_-\" title=\"With enthusiasm and love for  game development\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\"><b>Just for u +_-</b></a></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">uAsset</a>\n              <a class=\"text-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Buy uAssets</a>\n              <a class=\"text-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\">uMessage</a> <a class=\"text-primary\" href=\"page3.html\" data-app-placeholder=\"Type Text\">About uAsset<br></a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>Buy uAssets<br></a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "re0UECbje2",
+          "_anchor": "menu1-14",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
           "_styles": {
-            ".mbr-header__text": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
               "color": "#ffffff",
-              "font-size": "60px"
+              "text-align": "center"
             },
-            ".btn": {
-              "font-size": "16px"
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
             }
-          }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3.png\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\" selected> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Send uMessage<br>to uAsset<br>@</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b><br></b><a href=\"mailto:umessage@tuta.io\" class=\"text-primary\">umessage@tuta.io</a><a href=\"mailto:umessage@tuta.io\" class=\"text-primary\"><br></a><b>Welcome</b> game developer!<br>If you have any question or<br>request, feel free to ask.<br><b>uAsset- Just <br>for u <br>+_-</b><br><b><br></b></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>\n                uMessage</a></div>\n    </div>\n</section>",
+          "_cid": "re0UECNY9w",
+          "_anchor": "header4-15",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": true,
-            "sticky": false,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#ffffff",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-shopping-cart mbr-iconfont mbr-iconfont-btn-parent\"></span>uScene legacy</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn-parent\"></span>uMessage</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-italic mbr-iconfont mbr-iconfont-btn-parent\"></span>About</a></li>         ",
-          "_tags": [
-            "Theme"
-          ],
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
+            "amp-img": {
+              "text-align": "center"
             },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "link": "https://uasset.github.io",
-              "title": "uAsset - With enthusiasm and love for  game developmen",
-              "linkInNewWindow": false
+            ".items-col .item": {
+              "margin": "0"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": "",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">uasset.ga</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-d"
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-2-265x265.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "https://uasset.github.io",
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "uAsset - With enthusiasm and love for  game developmen",
-              "linkInNewWindow": false
+            ".item, .group-title": {
+              "color": "#efefef",
+              "padding-top": "0"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#000000"
+            "@media (max-width: 767px)": {
+              ".items-col": {
+                "text-align": "center",
+                "margin": "2rem 0"
+              }
             },
-            "UL": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "contacts1-e"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
+            ".group-title": {
               "color": "#000000",
               "text-align": "left"
+            },
+            ".item, .items": {
+              "color": "#4ea2e3",
+              "text-align": "left"
+            },
+            ".item, .items A": {
+              "color": "#4ea2e3"
+            },
+            ".item, .items B": {
+              "color": "#000000"
             }
           },
-          "_anchor": "footer1-f"
+          "_name": "footer3",
+          "_customHTML": "<section class=\"footer3\" group=\"Footers\" plugins=\"amp-main\" global=\"\" once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <select title=\"Spalten\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Spaltentitel Anzeigen\" name=\"showTitle\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 1\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 2\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 3\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 2\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-3\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" layout=\"responsive\" width=\"255\" height=\"255\" alt=\"uAsset - Just for you +_-\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" alt=\"uAsset - Just for you +_-\" title=\"With enthusiasm and love for  game development\">\n                </amp-img>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    uAsset</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"index.html\">uAssets</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page1.html\">\n                        Buy uAssets</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page2.html\">\n                        uMessage</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page3.html\">\n                        About&nbsp;uAsset</a><br><br></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://assetstore.unity.com/publishers/35467\"></a><b>Buy uAsset</b><b><br></b><b><br><a href=\"https://assetstore.unity.com/publishers/35467\">Asset Store</a></b></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://gumroad.com/uasset\">\n                        Gumroad</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Partner</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com\">\n                        Unity Technology</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/community\">\n                        Unity Community</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/get-unity/download/archive\">\n                        Unity Download</a></p>\n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/unity/beta\">\n                        Unity Beta</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Links</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://80.lv\">80.lv</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://github.com\">\n                        Github</a></p></div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "re0UEDYUNM",
+          "_anchor": "footer3-18",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
         }
       ]
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "About uAsset\n\nuAsset- Is a self funded independent artistic work.\n\nuAsset- Creates user-friendly tools for Unity Technology\nand his game developers worldwide. Experience\nin game development since Unity 4.6\nWith focus on productivity\nand visual quality.\nuAsset- Just\nfor u\n+_-",
-        "title": "About - uAsset Is a self funded independent artistic work.",
+        "title": "About uAsset",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
         "order": 3
       },
       "components": [
         {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": true,
-            "sticky": false,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#ffffff",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-shopping-cart mbr-iconfont mbr-iconfont-btn-parent\"></span>uScene legacy</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn-parent\"></span>uMessage</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-italic mbr-iconfont mbr-iconfont-btn-parent\"></span>About</a></li>         ",
-          "_tags": [
-            "Theme"
-          ],
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
             },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
+            ".open": {
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
             },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>uAsset</a></li>   ",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-1-128x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "link": "https://uasset.github.io",
-              "title": "uAsset - With enthusiasm and love for  game developmen",
-              "linkInNewWindow": false
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": "",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">uasset.ga</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-i"
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": false,
-            "bgImage": "images/bg.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "About uAsset",
-          "text": "<br><b>uAsset- Is a self funded independent artistic work.</b><br><b><br>uAsset- Creates user friendly tools for <a href=\"https://en.wikipedia.org/wiki/Unity_(game_engine)\" class=\"text-info\">Unity Technology</a><br>and his game developers worldwide. Experience<br>in game development since Unity 4.6<br>With focus on productivity<br>and visual quality.<br>uAsset- Just<br>for u<br>+_-</b><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-l",
-          "_styles": {
-            "H1": {
-              "font-size": "60px",
-              "color": "#ffffff"
+            "button.sticky-but": {
+              "position": "fixed"
             },
-            "B": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/uscene-logo-2-265x265.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "https://uasset.github.io",
-              "alt": "uAsset - With enthusiasm and love for  game developmen",
-              "title": "uAsset - With enthusiasm and love for  game developmen",
-              "linkInNewWindow": false
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "padding-right": "30px",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              }
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<strong>uAsset</strong><br><a href=\"index.html\" class=\"text-info\">uHome</a><br><a href=\"page1.html\" class=\"text-info\">uScene legacy</a><br><a href=\"page2.html\" class=\"text-info\">uMessage</a><br><a href=\"page3.html\" class=\"text-info\">About</a><br><br><strong>BUY uAssets</strong><br><a href=\"https://assetstore.unity.com/publishers/35467\" class=\"text-info\">Asset Store</a><br><a href=\"https://gumroad.com/uasset\" class=\"text-info\">Gumroad</a><br>",
-          "text2": "<strong>PARTNER</strong><br><a href=\"https://unity3d.com\" class=\"text-info\">Unity Technology</a><br><a href=\"https://unity3d.com/community\" class=\"text-info\">Unity Community</a><strong><br></strong><br><strong>DOWNLOAD</strong><br><a href=\"https://unity3d.com/get-unity/download/archive\" class=\"text-info\">Unity&nbsp;Technology</a><br><a href=\"https://unity3d.com/unity/beta\" class=\"text-info\">Unity Beta Programm</a><a href=\"https://store.unity.com\" class=\"text-info\"><br></a><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><b>LINKS</b></p><p class=\"mbr-contacts__text\"><a href=\"https://github.com/\" class=\"text-info\">Github</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            "UL": {
-              "color": "#000000"
-            },
-            "STRONG": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "contacts1-j"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "uAsset <br>Game Development <br>Copyright © 2018&nbsp;- All Rights Reserved<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
+            ".brand-name": {
               "color": "#000000",
               "text-align": "left"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "14px",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              }
             }
           },
-          "_anchor": "footer1-k"
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Logo Anzeigen\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Lögo-Höhe\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n        <input type=\"range\" title=\"Logo-Breite\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"80\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Markennamen Anzeigen\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Links Anzeigen\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar-Seite\" name=\"sidebarSide\">\n            <option value=\"left\">Links</option>\n            <option value=\"right\" selected=\"\">Rechts</option>\n        </select>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger-Farbe\" name=\"hamburgerColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" layout=\"responsive\" width=\"80\" height=\"80\" alt=\"uAsset - Just for u +_-\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-1-110x110.png\" alt=\"uAsset - Just for u +_-\" title=\"With enthusiasm and love for  game development\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\"><b>Just for u +_-</b></a></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">uAsset</a>\n              <a class=\"text-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Buy uAssets</a>\n              <a class=\"text-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\">uMessage</a> <a class=\"text-primary\" href=\"page3.html\" data-app-placeholder=\"Type Text\">About uAsset<br></a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-cart-plus mbr-iconfont mbr-iconfont-btn\"></span>Buy uAssets<br></a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "re0ZimsPHm",
+          "_anchor": "menu1-19",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/uasset-uscene-legacy-3.png\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#15181b\" selected> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">About uAsset</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>uAsset- Is a self funded independent artistic work.</b><br><b>uAsset creates user friendly tools for unity 3d technology</b><br><b>and his game developers worldwide. Experience</b><br><b>in game development sinse Unity 4.6</b><br><b>With focus on productivity</b><br><b>and visual quality.</b><br><b>uAsset- Just</b><br><b>for u&nbsp;</b><br><b>+_-</b></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>\n                uAsset</a></div>\n    </div>\n</section>",
+          "_cid": "re0ZimWwvK",
+          "_anchor": "header4-1a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".items-col .item": {
+              "margin": "0"
+            },
+            ".item, .group-title": {
+              "color": "#efefef",
+              "padding-top": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".items-col": {
+                "text-align": "center",
+                "margin": "2rem 0"
+              }
+            },
+            ".group-title": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".item, .items": {
+              "color": "#4ea2e3",
+              "text-align": "left"
+            },
+            ".item, .items A": {
+              "color": "#4ea2e3"
+            },
+            ".item, .items B": {
+              "color": "#000000"
+            }
+          },
+          "_name": "footer3",
+          "_customHTML": "<section class=\"footer3\" group=\"Footers\" plugins=\"amp-main\" global=\"\" once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <select title=\"Spalten\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Spaltentitel Anzeigen\" name=\"showTitle\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 1\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 2\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline=\"\" title=\"Spalte 3\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 2\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-3\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" layout=\"responsive\" width=\"255\" height=\"255\" alt=\"uAsset - Just for you +_-\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/uasset-logo-2-265x265.png\" alt=\"uAsset - Just for you +_-\" title=\"With enthusiasm and love for  game development\">\n                </amp-img>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    uAsset</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"index.html\">uAssets</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page1.html\">\n                        Buy uAssets</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page2.html\">\n                        uMessage</a></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"page3.html\">\n                        About&nbsp;uAsset</a><br><br></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://assetstore.unity.com/publishers/35467\"></a><b>Buy uAsset</b><b><br></b><b><br><a href=\"https://assetstore.unity.com/publishers/35467\">Asset Store</a></b></p><p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://gumroad.com/uasset\">\n                        Gumroad</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Partner</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com\">\n                        Unity Technology</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/community\">\n                        Unity Community</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/get-unity/download/archive\">\n                        Unity Download</a></p>\n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://unity3d.com/unity/beta\">\n                        Unity Beta</a></p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12 align-right\" mbr-class=\"{'mbr-col-md-3': columnsCount == 3,\n                             'mbr-col-md-4': columnsCount <= 2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".group-title\">\n                    Links</h3>\n                <div class=\"items\" mbr-list=\"\" mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://80.lv\">80.lv</a></p>\n                    \n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\"><a href=\"https://github.com\">\n                        Github</a></p></div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "re0ZinhDKj",
+          "_anchor": "footer3-1b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
         }
       ]
     }
